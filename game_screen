@@ -1,0 +1,7 @@
+import pygame 
+screen_width = 1080 
+screen_height = 720 
+screen = pygame.display.set_mode((screen_width,screen_height)) 
+background = pygame.image.load("images/bg.png") 
+game_board = pygame.image.load("images/game_board.png") 
+pygame.mouse.set_visible(False) 
